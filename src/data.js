@@ -24,7 +24,13 @@ export const categoriesCount = categories.reduce((obj, cat) => {
 
   return obj
 }, {}) 
-
+console.log('****')
+export const categoriesArray = categoriesUnique.reduce((acc, cat) => {
+  console.log('acc',acc)
+  console.log('cat',cat)
+  acc.push({name:cat,count:categoriesCount[cat]})
+return acc
+},[])
 
 export default categoriesUnique
 export {categories}
