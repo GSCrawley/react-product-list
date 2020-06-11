@@ -32,5 +32,5 @@ export const categoriesArray = categoriesUnique.reduce((acc, cat) => {
 return acc
 },[])
 
-export default categoriesUnique
-export {categories}
+export default data
+export {categories, categoriesUnique}
