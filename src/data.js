@@ -1,7 +1,7 @@
 import data from './data.json'
 
-const getTotalPrice = () => {
-data.map(() => {})
+export const getTotalPrice = () => {
+data.map((obj) => {return obj.price})
 
 }
 const categories = data.map((obj) => {return obj.category} )
