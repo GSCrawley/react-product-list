@@ -8,5 +8,10 @@ function CatButton(props){
       </button>)
   }
 
+function AllButton(props){
+  return (
+    <button onClick={}
+  )
+}
 export default CatButton
   
